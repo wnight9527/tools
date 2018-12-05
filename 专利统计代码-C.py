@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time    : 2018/05/10 21:50
-# @Author  : MJay_Lee
-# @File    : python统计行数.py
-# @Contact : limengjiejj@hotmail.com
-
+# @Time    : 2018/10/10
+# @Author  : wnight
+# @Contact : wnight9527@outlook.com
+# 暂时没有处理中间的注释 //
 import os
 import time
 basedir = os.path.dirname(__file__)
