@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2018/05/10 21:50
-# @Author  : MJay_Lee
-# @File    : python统计行数.py
-# @Contact : limengjiejj@hotmail.com
+# @Time    : 2018/10/10
+# @Author  : wnight
+# @Contact : wnight9527@outlook.com
+# 注意，没有处理中间的注释//，是拿生成好的txt最后把//.*批量替换为空，懒得改代码了。。
 
 import os
 import time

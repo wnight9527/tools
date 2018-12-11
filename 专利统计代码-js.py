@@ -9,7 +9,7 @@ import time
 basedir = os.path.dirname(__file__)
 filelists = []
 # 指定想要统计的文件类型
-whitelist = ['c','h']
+whitelist = ['json','js','xml','java']
 #遍历文件, 递归遍历文件夹中的所有
 def getFile(basedir):
     global filelists
@@ -53,11 +53,7 @@ def countLine(fname):
                         f.write(onetext)
                     except UnicodeDecodeError:
                         pass
-
-
         print(fname + '----', count)
-        # 单个文件行数
-        # print(fname,'----count:',count)
         return count
 
 if __name__ == '__main__' :
